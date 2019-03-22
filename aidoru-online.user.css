@@ -1,9 +1,10 @@
 /* ==UserStyle==
-@name         Dark Aidoru Online
-@namespace    
-@homepageURL  
-@author       Itokatsu 
+@name         Aidoru Online - Dark Theme
+@namespace    https://github.com/Itokatsu/itkcss/aidoru-online.user.css
+@homepageURL  https://github.com/Itokatsu/itkcss
+@version      1.0.0
 @description  Dark Theme for aidoru-online.org
+@author       Itokatsu 
 ==/UserStyle== */
 
 @-moz-document regexp("https?://aidoru-online.org/(?!forum).*") {
