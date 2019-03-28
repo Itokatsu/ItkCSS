@@ -247,6 +247,12 @@
         color: cadetblue
     }
 
+    /* icons */
+    .ui-icon, .ui-widget-content .ui-iconi, img.ty {
+        filter: invert(0.5);
+        -webkit-filter: invert(0.5);
+    }
+
     /* TORRENT DETAILS PAGE */
     #downloadbox {
         border: 2px solid #888;
