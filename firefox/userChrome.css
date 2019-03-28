@@ -1,0 +1,66 @@
+/*
+# #292d3e
+# #434758
+# #c3e88d
+# #ddffa7
+# #ffcb6b
+# #ffe585
+# #f07178
+# #ff8b92
+# #82aaff
+# #9cc4ff
+# #c792ea
+# #e1acff
+# #89ddff
+# #a3f7ff
+*/
+
+:root {
+    --in-content-page-background: #292d3e !important;
+    --in-content-page-color: #d0d0d0 !important;
+    --in-content-text-color: #d0d0d0 !important;
+}
+
+#tabbrowser-tabpanels {
+    background-color: #292d3e !important;
+}
+
+window#main-window {
+    --toolbar-bgcolor: #292d3e !important;
+    --lwt-toolbar-field-background-color: #434758 !important;
+    --lwt-toolbar-field-border-color: #292d3e !important;
+    --lwt-text-color: #d0d0d0 !important;
+    --arrowpanel-background: #434758 !important;
+}
+
+tabs#tabbrowser-tabs {
+    background: #292d3e !important;
+    --tab-line-color: #c792ea !important;
+}
+
+tab.tabbrowser-tab {
+    background: #292d3e !important;
+    color: #d0d0d0 !important;
+}
+
+#sidebar-box {
+    --sidebar-background-color: #292d3e !important;
+    --sidebar-text-color: #d0d0d0 !important;
+}
+
+.side-panel, page#history-panel {
+    --newtab-background-color: #292d3e !important;
+    --newtab-text-primary-color: #d0d0d0 !important;
+    --lwt-sidebar-background-color: #292d3e !important;
+    --lwt-sidebar-text-color: #d0d0d0 !important;
+}
+
+/* Preferences */
+
+.navigation, .main-content{
+    background: #292d3e !important;
+    color: #d0d0d0 !important;
+}
+richlistitem {
+    color: #ffffff !important;
+}
