@@ -1,0 +1,57 @@
+/* ==UserStyle==
+@name         Itkcss - Ameba Timetable Dark
+@namespace    https://github.com/Itokatsu/itkcss/jpopsuki
+@version      1.0.0
+@description  Simple recolor for ameba.tv timetable page
+@author       Itokatsu 
+==/UserStyle== */
+
+@-moz-document url-prefix("https://abema.tv/timetable") {
+    :root {
+        --bg: #252525;
+        --bg-alt: #101010;    
+        --fg : #d0d0d0;
+        --ameba-green : #3a2;
+    }
+
+    /* columns */
+    .abm_993ecec0_c * {
+        border-color: var(--fg) !important;
+    }
+    /* past programs */
+    .abm_ba689d83_h {
+        background-color: var(--bg-alt) !important;
+    }
+    /* live programs */
+    .abm_ba689d83_j {
+        background-color: #13340F !important;
+    }
+    /* incoming programs */
+    .abm_ba689d83_k {
+        background: var(--bg) !important;
+    }
+    .abm_ba689d83_h:hover,
+    .abm_ba689d83_k:hover,
+    .abm_ba689d83_j:hover{
+        filter: brightness(150%);
+    }
+    .c-tv-TimeTableContainer__arrow-button {
+        background-color: gray;
+    }
+
+    /* side bar*/
+    .c-tv-TimeTableContainer__side-slot-detail-wrapper  {
+        background-color: var(--bg-alt);
+    }
+
+    .com-a-ToggleButton__container {
+        background-color: var(--bg-alt);
+    }
+    .abm_b3841670_h {
+        color: goldenrod;
+    }
+    .abm_b3841670_b svg {
+        fill: var(--ameba-green) !important;
+    }
+
+}
