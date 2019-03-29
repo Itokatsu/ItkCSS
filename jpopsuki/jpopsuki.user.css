@@ -1,7 +1,7 @@
 /* ==UserStyle==
-@name         Jpopsuki - Dark Theme
+@name         Itkcss - Jpopsuki Dark Theme
 @namespace    https://github.com/Itokatsu/itkcss/jpopsuki
-@version      1.0.0
+@version      1.0.0a
 @description  Dark Theme for jpopsuki
 @author       Itokatsu 
 ==/UserStyle== */
@@ -43,10 +43,11 @@
         color: #DD8800;
     }
 
-    #copyleft {
+/*    #copyleft {
         background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADUAAAANCAIAAACGrbHnAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4AQOFzIINQ0JZwAAAt5JREFUSMftVU1IKlEYPdMbk6CEMA1qyIKGFkG5iTYG06LdaCuxRRBBC4MQwqBgwBJ0EWKUENGin0VQIRqV0cKgRaG7oKBNFC2mIhfpZPSHOtPihviqB9Xb9OCd1Zkz33zfud937x2KZVn8YBThZ+Mf8Wez2QRBEARhcHDwTYTJZALAMExnZyfP89+uND4+nudOp/ML/vr6+liWFUVRURRZlv1+f2HE/Pw8ALfbbbFYTCbTzs7O9/x1dHTkuSiKX/DX0NDg8Xja2tp2d3enpqaKi4sLI56fnwFks1mfzzcyMlJTU8Oy7NLSkt/v39jYADA8PLywsBCJRMbGxgCEw2FChoaGzGYzgFAoBODq6oq8JdNobGzMl5ienna5XF6vF8Dq6ioAo9EYCARe/aVSqf7+flEU4/E4gKenp99WUFQEIJ1OT05ORiKR0dFRi8VycnLidDqvr6+tVqter9/b2+N5nuM4s9lcW1tLeswwTElJCQCdTgdAluVYLDY7OwuA4zgiAuju7jYYDIeHh1arVaVSkU9omq6oqHj1V1VVNTMzQ1GU2+1uamrSaDSF/lQqFYDS0tJgMMjz/PLysk6nu7u7I63N5XLZbDaVSgEoKyuLRqPt7e0ul4vn+dvbW4qiAKjVapLq6OiITPnx8fHh4YGIFEXJspxIJLq6ujKZDKmu1+sVRQFAAxgYGJibmzs7O6Np2uFweDyevLm1tbXj42OyekIABAKBxcXF8vJyg8EQDodbW1vtdntPT8/29rZWq+3t7U0mkzc3N1tbWxMTExzHXVxcEB92u319fb2lpSWRSEiS5HA4KisrBUGw2WzNzc0ajebg4CAajW5ubkqSdHl5CYDK388MwyiKQtTC5mUymQ93bl1d3fn5OYBgMBgKhVZWVoheXV39JslnUF9ff3p6+l7/pdVqCUun02RqhZBl+U8ZJUnKH6D9/f37+3vy+D7JZ5BMJj/Uqf//t7/CCxMQN0DE1rqVAAAAAElFTkSuQmCC') no-repeat center center;
     }
-
+*/
+    
 
     /* index */
     #searchbars, #menu, #userinfo, #alerts  {
