@@ -407,27 +407,18 @@
         box-shadow: 0px 0px 2px #333;
         border-color: black;
     }
+/*
 }
-
-@-moz-document url-prefix("https://aidoru-online.(org|me)/login.php") {
-    #content {
+@-moz-document url-prefix("https://aidoru-online.org|me)/login.php") {
+*/
+    #content, p.submit {
         background: #282A2E;
-        border-color: #777;
+        border-color: #111;
+    }
+    #content * {
+        border-color: #111;
     }
     #content h2 {
         background: #111;
-    }
-    #content .submit {
-        background: #202020;
-        border-color: #777;
-    }
-
-    form .label, .form_container .field {
-        border-color: #777;
-    }
-    p.submit input:hover {
-        border-color: goldenrod;
-        background: goldenrod;
-        color: black;
     }
 }
