@@ -371,15 +371,15 @@
 
     /* alerts */
     .alert-warning {
-        background:midnightblue;
-        border-color:midnightblue;    
+        background:#111;
+        color: antiquewhite;
+        border-color:goldenrod;
     }
     .close:hover {
-        color:cyan;
+        color:goldenrod;
     }
 
     /* news tab */
-
     .myFrame-news .panel, .myFrame-news .panel-info {
         background-color: #444555;
         border-color: #444555;
