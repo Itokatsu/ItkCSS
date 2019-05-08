@@ -1,14 +1,14 @@
 /* ==UserStyle==
 @name         Itkcss - A!O Dark
 @namespace    https://github.com/Itokatsu/itkcss/aidoru-online
-@version      1.0.0
+@version      1.0.1
 @description  Dark Theme for aidoru!online
 @author       Itokatsu 
 ==/UserStyle== */
 
 /* GENERAL STUFF */
 
-@-moz-document regexp("https?://aidoru-online.org/(?!forum).*") {
+@-moz-document regexp("https?://aidoru-online.(org|me)/(?!forum).*") {
     html,
     body {
         background-color: #1d1f21;
@@ -80,7 +80,7 @@
 
     /* NAVIGATION BAR */
     .navigation {
-        background: #113
+        background: #111
     }
 
     /* myBlock = SIDEBAR BLOCKS */
@@ -140,9 +140,7 @@
         border-bottom-width: 0px
     }
 
-
     /* SEARCH Filters (index page) */
-
     /* fixing down arrow */
     .select .arr {
         background: #111;
@@ -154,7 +152,6 @@
     }
 
     /* actual filters */
-
     p.sub-filters a,
     #search-menu{
         background-color: #444555;
@@ -249,8 +246,8 @@
 
     /* icons */
     .ui-icon, .ui-widget-content .ui-iconi, img.ty {
-        filter: invert(0.5);
-        -webkit-filter: invert(0.5);
+        filter: invert(0.6);
+        -webkit-filter: invert(0.6);
     }
 
     /* TORRENT DETAILS PAGE */
@@ -260,10 +257,6 @@
         background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #222), color-stop(50%, #3A3A3A), color-stop(100%, #222));
         box-shadow: none;
         -webkit-box-shadow: none;
-    }
-    .thankyou {
-        box-shadow: 0px 0px 2px #333;
-        border-color: black;
     }
     .download legend {
         color: black;
@@ -284,6 +277,11 @@
     table.f-border, .f-border table {
         border: 1px dotted #777
     }
+
+    .f-border.comment-details a > img {
+        filter: invert(1);
+    }
+
     .f-border table tr {
         border-bottom: none;
     }
@@ -300,7 +298,6 @@
         border: 1px solid #333847!important;
         background: #181a21;
     }
-
 
     /* COMMENT TEXTAREA */
     .b-border .b-title,
@@ -360,13 +357,8 @@
         margin-left: 1px
     }
 
-    /* Thanks MiniTokki for the logo*/
-    .logo {
-        background:                url('data:image/png;base64,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')
-    }
-
     .logo img {
-        display: none
+        filter: invert(0.875) hue-rotate(180deg);
     }
 
     /* dirty fix */
@@ -396,7 +388,7 @@
     }
 
     /* torrent buttons */
-    .freeleech-box, .tor-button {
+    .freeleech-box, .tor-button, #ty-button[data-ty="1"]:hover {
         background-color: #444555;
         border-color: #444555;
         color: silver;
@@ -411,9 +403,13 @@
     .tor-button a:hover {
         color: skyblue;
     }
+    .thankyou {
+        box-shadow: 0px 0px 2px #333;
+        border-color: black;
+    }
 }
 
-@-moz-document url-prefix("https://aidoru-online.org/login.php") {
+@-moz-document url-prefix("https://aidoru-online.(org|me)/login.php") {
     #content {
         background: #282A2E;
         border-color: #777;
